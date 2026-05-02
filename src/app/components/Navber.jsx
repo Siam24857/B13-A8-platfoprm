@@ -14,6 +14,9 @@ const Navbar = () => {
     await authClient.signOut()
   }
 
+
+
+  
   return (
     <div className="navbar bg-base-100 shadow-sm px-4 ">
 
