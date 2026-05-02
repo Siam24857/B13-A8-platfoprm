@@ -4,6 +4,9 @@ import Crouse from '../components/Crouse';
 import { GoGoal } from 'react-icons/go';
 import Instracter from '../components/Instracter';
 import Treandinapp from '../components/Treandinapp';
+import { CiClock2 } from 'react-icons/ci';
+import { IoBookOutline } from 'react-icons/io5';
+import { RxPeople } from 'react-icons/rx';
 
 const Hompage = () => {
     return (
@@ -34,25 +37,25 @@ const Hompage = () => {
                     <div className='p-4 sm:p-5 space-y-4 sm:space-y-7 shadow-xl rounded-xl'>
                         <div className='rounded-full flex justify-center'>
                             <div className='bg-pink-100 mx-auto p-4 sm:p-5 rounded-full'>
-                                <GoGoal className="text-xl sm:text-2xl" />
+                                <CiClock2 className="text-xl sm:text-2xl" />
                             </div>
                         </div>
                         <h4 className='text-center text-xl sm:text-2xl md:text-2xl lg:text-2xl font-bold'>
-                            Stay Consistent
+                            Consistent Schedule
                         </h4>
                         <p className='text-center text-gray-500 text-sm sm:text-base'>
-                            Practice daily and maintain a regular learning schedule.
+                          Dedicate specific time slots for learning every day.
                         </p>
                     </div>
 
                     <div className='p-4 sm:p-5 space-y-4 sm:space-y-7 shadow-xl rounded-xl'>
                         <div className='rounded-full flex justify-center'>
                             <div className='bg-pink-100 mx-auto p-4 sm:p-5 rounded-full'>
-                                <GoGoal className="text-xl sm:text-2xl" />
+                                <IoBookOutline className="text-xl sm:text-2xl" />
                             </div>
                         </div>
                         <h4 className='text-center text-xl sm:text-2xl md:text-2xl lg:text-2xl font-bold'>
-                            Take Notes
+                           Take Notes
                         </h4>
                         <p className='text-center text-gray-500 text-sm sm:text-base'>
                             Write down key concepts to improve retention and understanding.
@@ -62,14 +65,14 @@ const Hompage = () => {
                     <div className='p-4 sm:p-5 space-y-4 sm:space-y-7 shadow-xl rounded-xl'>
                         <div className='rounded-full flex justify-center'>
                             <div className='bg-pink-100 mx-auto p-4 sm:p-5 rounded-full'>
-                                <GoGoal className="text-xl sm:text-2xl" />
+                                <RxPeople  className="text-xl sm:text-2xl"  />
                             </div>
                         </div>
                         <h4 className='text-center text-xl sm:text-2xl md:text-2xl lg:text-2xl font-bold'>
-                            Apply Knowledge
+                           Join Communities
                         </h4>
                         <p className='text-center text-gray-500 text-sm sm:text-base'>
-                            Build projects to reinforce what you ve learned practically.
+                          Connect with fellow learners for support and motivation.
                         </p>
                     </div>
 
