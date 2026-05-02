@@ -81,6 +81,8 @@ const Hompage = () => {
             <Instracter></Instracter>
             <Treandinapp></Treandinapp>
         </div>
+
+//all this section is compeleted
     );
 };
 
