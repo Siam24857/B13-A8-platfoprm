@@ -61,6 +61,7 @@ const Navbar = () => {
             <div className="w-9 h-9 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center">
               {user.image ? (
                 <img
+                 referrerPolicy="no-referrer"
                   src={user.image}
                   alt="avatar"
                   className="w-full h-full object-cover"
